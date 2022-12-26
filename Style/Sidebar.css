@@ -1,0 +1,62 @@
+.sidebar{
+  font-family: Roboto, Arial;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  color: black;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 220px;
+  border-right: 1px solid rgb(205, 205, 205);
+  padding: 8px 12px;
+}
+
+.sidebar-logo {
+  width: 103px;
+  height: 36px;
+  padding: 23px 12px 14px 12px;
+  margin-bottom: 19px;
+}
+
+.home-page-box,
+.search-box,
+.explore-box,
+.reels-box,
+.messages-box,
+.notification-box,
+.create-box,
+.profile-box
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sidebar-logo-box {
+  height: 92px;
+}
+
+.icon-description {
+    font-size: 16px;
+    padding-left: 16px;
+}
+.profile-icon {
+  border-radius: 12px;
+}
+
+
+.button-holder {
+  margin: 4px 0;
+  padding: 12px;
+}
+
+.home-page-icon, .search-icon,
+.explore-icon, .reels-icon,
+.messages-icon, .notification-icon,
+.create-icon, .profile-icon{
+  width: 24px;
+  height: 24px;
+}
+
